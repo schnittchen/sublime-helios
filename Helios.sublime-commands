@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "Helios: Set Light Theme",
+    "command": "helios",
+    "args": {"scheme":"light"}
+  },
+  {
+    "caption": "Helios: Set Dark Theme",
+    "command": "helios",
+    "args": {"scheme":"dark"}
+  }
+]
