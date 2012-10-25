@@ -13,7 +13,7 @@ Not available yet.
 ### From git
 
     cd <your sublimetext 2 packages directory>
-    git clone git://github.com/schnittchen/sublime-helios-git.git Helios
+    git clone git://github.com/schnittchen/sublime-helios.git Helios
 
 ## Configuration
 
