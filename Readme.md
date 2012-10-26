@@ -8,7 +8,8 @@ Released under the MIT license. See LICENSE for details.
 
 ### Package Control
 
-Not available yet.
+Open the command palette, choose "Package Control: Install Package". This prompts you for
+the package to install.
 
 ### From git
 
