@@ -28,5 +28,12 @@ class HeliosCommand(sublime_plugin.ApplicationCommand):
         for window in sublime.windows():
             for view in window.views():
                 settings = view.settings()
+                # first we set the theme and color_scheme settings, so the view
+                # is repainted. then we remove them again, so that subsequent
+                # global config changes can take effect
+
                 settings.set("theme", self.theme)
                 settings.set("color_scheme", self.colors)
+
+                settings.erase("theme")
+                settings.erase("color_scheme")
